@@ -1,0 +1,24 @@
+
+Vision Transformer Patch Size Comparison
+=========================================
+
+Dataset:
+CIFAR-10
+
+Patch Sizes:
+4x4, 8x8, 16x16
+
+Best Patch Size:
+4x4
+
+Best Test Accuracy:
+0.5493
+
+Interpretation:
+Smaller patches produce more image tokens.
+This allows the Vision Transformer to capture
+finer spatial details but increases computation.
+
+Larger patches produce fewer tokens.
+This reduces computation but may lose some
+fine-grained spatial information.
