@@ -74,3 +74,21 @@ Classification Head
      ↓
 Class Prediction
 ```
+
+---
+
+## 📈 Visual Results
+
+### 1. Classification Accuracy Comparison
+
+![Validation Accuracy Comparison](results/validation_accuracy_comparison.png)
+
+### 2. Validation Loss Comparison
+
+![Validation Loss Comparison](results/validation_loss_comparison.png)
+
+### 3. Image Patch Visualization
+
+![Patch Size Visualization](results/patch_visualization.png)
+
+These visualizations help compare the classification performance, loss behavior, and image representation produced by different patch sizes.
